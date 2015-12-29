@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Projet</string>
+    <string name="button1">JCG Logo</string>
+    <string name="hello_world">Hello Players!</string>
+    <string name="Play">PLAY!</string>
+    <string name="action_settings">Configuration</string>
+    <string name="action_bold">Refresh</string>
+    <string name="logo">image</string>
+    <string name="title_activity_second">Second</string>
+    <string name="Welcome">Bienvenue</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="Suivant">Suivant</string>
+    <string name="Numéro">Numéro</string>
+    <string name="Marché">Marché</string>
+    <string name="Nom">Nom</string>
+    <string name="ad">ad</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
+</resources>

@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.test.thomas.projet.MainActivity"
+    android:id="@+id/.MainActivity"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to your application SmartMarket"
+        android:id="@+id/textView3"
+        android:layout_weight="0.17"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/market"
+        android:layout_weight="0.70" />
+
+    <Button
+        android:id="@+id/notification"
+        android:layout_width="144dp"
+        android:layout_height="16dp"
+        android:onClick="Notif"
+        android:text="Notification"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:background="#cc9744"
+        android:layout_weight="0.04">
+    </Button>
+
+    <Button
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button" />
+
+</LinearLayout>
