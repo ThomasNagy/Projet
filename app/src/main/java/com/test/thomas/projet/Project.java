@@ -28,7 +28,7 @@ import java.util.List;
 public class Project extends AppCompatActivity {
 
     EditText NameTxt, EmailTxt, MarketTxt, PhoneTxt;
-    List<Contact> Contacts = new ArrayList<Contact>();
+    List<Contact> Contacts = new ArrayList<>();
     ListView CListView;
     DatabaseHandler dbHandler;
     ImageView contactImgView;
@@ -117,7 +117,7 @@ public class Project extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent();
-                intent.setType("image/*");
+                intent.setType("@drawable/profil.png");
                 intent.setAction(Intent.ACTION_GET_CONTENT);
                 startActivityForResult(Intent.createChooser(intent, "Select Contact Image"), 1);
             }
@@ -217,7 +217,7 @@ public class Project extends AppCompatActivity {
             return true;
         }
         if (id == R.id.action_bold) {
-            Toast.makeText(getApplicationContext(),"Configuration selected", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"Refresh done", Toast.LENGTH_LONG).show();
             return true;
         }
         if(id==R.id.navigate){
